@@ -3,7 +3,7 @@
 
 # Current blobs with ELF checks disabled:
 # libOmxVideoDSMode, libOmxVpp depend on libOmxCore, which is a GNU Makefile target
-# imsdatadaemon, libcne, libwqe, lowi-server, wigighalsvc depend on libwpa_client, which is a GNU Makefile target
+# imsdatadaemon, libcne, libwqe, lowi-server depend on libwpa_client, which is a GNU Makefile target
 
 # ADSP
 vendor/bin/adsprpcd
@@ -1128,19 +1128,5 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 # Wifi
 vendor/bin/cnss-daemon
 vendor/bin/wifilearner
-vendor/bin/wigig_wiburn
-vendor/bin/wigighalsvc;DISABLE_CHECKELF
-vendor/bin/wigignpt
-vendor/etc/configstore/wigig.xml
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/etc/init/vendor.qti.hardware.wigig.supptunnel@1.0-service.rc
-vendor/etc/wifi/wigig_p2p_supplicant.conf
-vendor/etc/wifi/wigig_supplicant.conf
-vendor/firmware/wigig/wigig.ini
-vendor/lib64/libwigig_flashaccess.so
-vendor/lib64/libwigig_ftm_flows.so
-vendor/lib64/libwigig_pciaccess.so
-vendor/lib64/libwigig_utils.so
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
-vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-vendor/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
