@@ -3,10 +3,12 @@
 # You have to check whether device supports A/B update or not.
 
 #<src>                                                               <mnt_point>            <type>   <mnt_flags and options>                                                 <fs_mgr_flags>
-/dev/block/bootdevice/by-name/system                                 /                       ext4    ro,barrier=1,noatime                                                    wait,slotselect
-/dev/block/bootdevice/by-name/metadata                               /metadata               ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic                                            wait,check,fsverity,formattable
-# product partition is early mounted and you can find out on sm8150.dtsi
-# /dev/block/bootdevice/by-name/product                                /product                ext4    ro,nodev,barrier=1,errors=continue                                    wait,slotselect
+/dev/block/by-name/system                                            /system                 ext4    ro,barrier=1,noatime                                                    wait,slotselect,avb,first_stage_mount
+/dev/block/by-name/vendor                                            /vendor                 ext4    ro,barrier=1,noatime                                                    wait,slotselect,avb,first_stage_mount
+/dev/block/by-name/metadata                                          /metadata               ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic             wait,check,fsverity,formattable,first_stage_mount
+/dev/block/by-name/product                                           /product                ext4    ro,nodev,barrier=1,errors=continue                                      wait,slotselect,avb,first_stage_mount
+/dev/block/by-name/OP                                                /product/OP             ext4    ro,noatime,nosuid,nodev,barrier=1,data=ordered,noauto_da_alloc          wait,slotselect,avb,nofail,first_stage_mount
+/dev/block/by-name/drm                                               /mnt/vendor/persist-lg  ext4    noatime,nosuid,nodev,barrier=1,data=ordered,noauto_da_alloc,errors=continue          wait,check,formattable,first_stage_mount
 /dev/block/bootdevice/by-name/userdata                               /data                   f2fs    noatime,nosuid,nodev,discard,reserve_root=32768,resgid=1065,fsync_mode=nobarrier,inlinecrypt        latemount,wait,check,quota,formattable,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2+inlinecrypt_optimized,metadata_encryption=aes-256-xts,keydirectory=/metadata/vold/metadata_encryption,readahead_size_kb=128
 /devices/platform/soc/8804000.sdhci/mmc_host*                        auto                    auto    nosuid,nodev                                                            wait,voldmanaged=external_SD:auto,encryptable=userdata
 /devices/platform/soc/a600000.ssusb/a600000.dwc3/xhci-hcd.*.auto*    auto                    auto    defaults                                                                voldmanaged=usb:auto
@@ -21,7 +23,6 @@
 /dev/block/bootdevice/by-name/misc                                   /misc                   emmc    defaults                                                                defaults
 /dev/block/bootdevice/by-name/ftm                                    /ftm                    emmc    defaults                                                                defaults
 /dev/block/bootdevice/by-name/sns                                    /mnt/vendor/sns         ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue          wait,check,formattable
-/dev/block/bootdevice/by-name/drm                                    /mnt/vendor/persist-lg  ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue          wait,check,formattable
 /dev/block/bootdevice/by-name/power                                  /mnt/vendor/power       ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue          wait,check,formattable
 /dev/block/bootdevice/by-name/persdata                               /mnt/vendor/absolute    ext4    nosuid,nodev,barrier=1,noatime,noauto_da_alloc,errors=continue          wait,check,formattable
 /dev/cnas                                                            auto                    auto    defaults                                                                voldmanaged=cnas:auto
