@@ -247,8 +247,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
 # Livedisplay
+ifneq ($(filter alphaplus betalm flashlm flashlmdd,$(shell echo $(TARGET_PRODUCT) | sed 's/^lineage_//')),)
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.lge
+endif
 
 # Media
 PRODUCT_PACKAGES += \
