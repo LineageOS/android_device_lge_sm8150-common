@@ -1,3 +1,6 @@
+## All unpinned files are from G850UM40c
+## mh2lm-user 12 SKQ1.211103.001 223331636afae release-keys
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/bin/dspservice
