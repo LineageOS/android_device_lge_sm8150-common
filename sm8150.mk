@@ -66,6 +66,8 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     audio.usbv2.default \
+    audio.primary.msmnile \
+    audio_amplifier.hifi_dac \
     libaudiopreprocessing \
     libbatterylistener \
     libbundlewrapper \
@@ -147,7 +149,7 @@ PRODUCT_PACKAGES += \
 # DAC
 PRODUCT_PACKAGES += \
     QuadDACPanel \
-    vendor.lge.hardware.audio.dac.control@2.0-service.proprietary
+    vendor.lge.hardware.audio.dac.control@2.0-service
 
 # Display
 PRODUCT_PACKAGES += \

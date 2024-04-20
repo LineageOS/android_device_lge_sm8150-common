@@ -54,6 +54,7 @@ vendor/lib/libqtigef.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libwebrtc_audio_preprocessing.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/lib/soundfx/libbundlewrapper.so
@@ -92,6 +93,7 @@ vendor/lib64/libexthwplugin.so
 vendor/lib64/libqtigef.so
 vendor/lib64/libsndmonitor.so
 vendor/lib64/libspkrprot.so
+vendor/lib64/libwebrtc_audio_preprocessing.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libaudiopreprocessing.so
 vendor/lib64/soundfx/libbundlewrapper.so
