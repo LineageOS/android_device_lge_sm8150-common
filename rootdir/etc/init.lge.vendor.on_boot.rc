@@ -156,3 +156,12 @@ on boot
 	chmod 664 /sys/class/leds/CG/brightness
 	chown system system /sys/class/leds/CB/brightness
 	chmod 664 /sys/class/leds/CB/brightness
+	chown system system /sys/devices/virtual/lg_rgb_led/use_patterns/blink_patterns
+	chmod 0644 /sys/devices/virtual/lg_rgb_led/use_patterns/blink_patterns
+	chown system system /sys/devices/virtual/lg_rgb_led/use_patterns/input_patterns
+	chmod 0644 /sys/devices/virtual/lg_rgb_led/use_patterns/input_patterns
+	chown system system /sys/devices/virtual/lg_rgb_led/use_patterns/onoff_patterns
+	chmod 0644 /sys/devices/virtual/lg_rgb_led/use_patterns/onoff_patterns
+	chown system system /sys/devices/virtual/lg_rgb_led/use_patterns/setting
+	chmod 0644 /sys/devices/virtual/lg_rgb_led/use_patterns/setting
+	write /sys/devices/virtual/lg_rgb_led/use_patterns/setting 1
