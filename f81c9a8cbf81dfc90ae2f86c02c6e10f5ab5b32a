@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c9c00a0_aab9fa1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-04-24T16:42:06Z",
+      "side": 1,
+      "message": "Currently looking at going OSS for audio HAL, in which case this commit will be invalid",
+      "revId": "f81c9a8cbf81dfc90ae2f86c02c6e10f5ab5b32a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
