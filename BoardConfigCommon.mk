@@ -168,6 +168,7 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 # SEPolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include hardware/lge/sepolicy/SEPolicy.mk
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
