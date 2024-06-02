@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dba88e74_7b371cd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-06-02T22:28:22Z",
+      "side": 1,
+      "message": "\u003e absolutely USELESS\n\nWell this enables hw accelerated virtual displays, it isn\u0027t completely useless, it\u0027s rather broken hwc...",
+      "revId": "62892d09e7bf0e69323ca8d86eb9934d7b0926cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
