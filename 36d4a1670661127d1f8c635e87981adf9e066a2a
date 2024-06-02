@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2e76064_0c767483",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32908
+      },
+      "writtenOn": "2024-06-02T19:32:21Z",
+      "side": 1,
+      "message": "works: an aosp-based rom screenrec functionality is restored (previously caused failure to save the file upon finishing recording)",
+      "revId": "36d4a1670661127d1f8c635e87981adf9e066a2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
