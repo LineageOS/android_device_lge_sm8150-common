@@ -16,6 +16,23 @@
       "message": "\u003e absolutely USELESS\n\nWell this enables hw accelerated virtual displays, it isn\u0027t completely useless, it\u0027s rather broken hwc...",
       "revId": "62892d09e7bf0e69323ca8d86eb9934d7b0926cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f5048fb_e9631424",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32908
+      },
+      "writtenOn": "2024-06-03T03:28:46Z",
+      "side": 1,
+      "message": "Well this enables hw accelerated virtual displays\nhttps://review.lineageos.org/c/LineageOS/android_frameworks_native/+/368325\nnuh uh, it gets disabled upon a missing flag, that\u0027s why it worked before.\nit\u0027s rather broken hwc...\nnuh uh, doesn\u0027t work on exy9820 either. it\u0027s UNSUPPORTED BY THE BSP",
+      "revId": "62892d09e7bf0e69323ca8d86eb9934d7b0926cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
