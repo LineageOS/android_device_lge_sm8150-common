@@ -187,7 +187,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 ifneq ($(filter alphalm alphaplus betalm flashlm flashlmdd,$(shell echo $(TARGET_PRODUCT) | sed 's/^lineage_//')),)
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.lge_sm8150
+    android.hardware.biometrics.fingerprint@2.1-service.lge
 endif
 
 # FM packages
