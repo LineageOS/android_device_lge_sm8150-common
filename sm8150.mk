@@ -75,6 +75,7 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libldnhncr \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -132,7 +133,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
-    libgui_vendor
+    libgui_vendor \
+    libpng.vendor
 
 # Configstore
 PRODUCT_PACKAGES += \
@@ -390,7 +392,9 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
@@ -405,6 +409,7 @@ PRODUCT_PACKAGES += \
     libril \
     librilutils \
     librmnetctl \
+    libsqlite.vendor:64 \
     libxml2
 
 # Rootdir
