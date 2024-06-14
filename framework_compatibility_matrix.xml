@@ -1,0 +1,61 @@
+<compatibility-matrix version="2.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.audio.dac.control</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDacControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.lgdata</name>
+        <version>1.1</version>
+        <interface>
+            <name>ILgData</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.lgdata</name>
+        <version>1.1</version>
+        <interface>
+            <name>ILgDataVendorRil</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.powerhint.rescontrol</name>
+        <version>2.0</version>
+        <interface>
+            <name>IResControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.radio</name>
+        <version>2.0</version>
+        <interface>
+            <name>ILgeRadio</name>
+            <instance>lge_radio</instance>
+            <instance>radio1_wifi</instance>
+            <instance>radio2_wifi</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.vss_ims</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVssIms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.nxp.nxpnfc</name>
+        <version>1.0</version>
+        <version>2.0</version>
+        <interface>
+            <name>INxpNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
