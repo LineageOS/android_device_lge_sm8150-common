@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be7db297_4a7af297",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33662
+      },
+      "writtenOn": "2024-06-17T15:33:01Z",
+      "side": 1,
+      "message": "no edit and look the same as my PR so LGTM",
+      "revId": "7212900d9e636d26e2a1b40b917ecd05d4e7ccdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
