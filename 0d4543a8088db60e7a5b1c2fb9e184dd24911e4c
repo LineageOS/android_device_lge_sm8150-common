@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46c0a9f5_67fb0c30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-06-20T23:37:36Z",
+      "side": 1,
+      "message": "This seems to fix AOD on mh2lm; not sure if this is something we want enabled on common tree though.\n\nNote frameworks/base has this disabled by default anyway, so if we must, we can just remove the flag from here and I can add on mh2lm.",
+      "revId": "0d4543a8088db60e7a5b1c2fb9e184dd24911e4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
