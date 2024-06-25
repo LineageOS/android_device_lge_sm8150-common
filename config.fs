@@ -22,12 +22,6 @@ value:2907
 [AID_VENDOR_FASTRPC]
 value:2908
 
-[bt_firmware/]
-mode: 0771
-user: AID_SYSTEM
-group: AID_SYSTEM
-caps: 0
-
 [dsp/]
 mode: 0771
 user: AID_MEDIA
