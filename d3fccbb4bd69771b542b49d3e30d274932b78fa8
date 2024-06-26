@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3715262d_d422697b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-06-26T01:32:33Z",
+      "side": 1,
+      "message": "Blocking as I3bcfe59f4d1d6cf1ddd531ee6553a74979c42d32 is not implementable due to extract-utils issue",
+      "revId": "d3fccbb4bd69771b542b49d3e30d274932b78fa8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
