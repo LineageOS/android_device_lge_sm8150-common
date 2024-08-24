@@ -282,6 +282,9 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
+    <!-- Whether or not WCG mode should be enabled on this device -->
+    <bool name="config_enableWcgMode">true</bool>
+
     <!-- Max number of advertisers supported by bluetooth controller. 0 if the
          device does not support multiple advertisement-->
     <integer translatable="false" name="config_bluetooth_max_advertisers">4</integer>
