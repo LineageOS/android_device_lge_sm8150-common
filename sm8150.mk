@@ -193,10 +193,8 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
-ifneq ($(filter alphalm alphaplus betalm flashlm flashlmdd,$(shell echo $(TARGET_PRODUCT) | sed 's/^lineage_//')),)
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.lge
-endif
+    android.hardware.biometrics.fingerprint@2.3-service.lge
 
 # FM packages
 PRODUCT_PACKAGES += \
