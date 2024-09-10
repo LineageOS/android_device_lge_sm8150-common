@@ -952,6 +952,7 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 
 # RIL - IMS
+system_ext/lib/libdiag_system.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
@@ -1177,6 +1178,7 @@ vendor/etc/thermal-engine.conf
 # Time services
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
+vendor/lib/libtime_genoff.so
 vendor/lib64/libtime_genoff.so
 
 # Touchcompanion
