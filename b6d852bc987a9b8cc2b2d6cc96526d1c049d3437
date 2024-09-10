@@ -16,6 +16,24 @@
       "message": "This is used by media HAL",
       "revId": "b6d852bc987a9b8cc2b2d6cc96526d1c049d3437",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09d9c6ff_c71d022d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 680,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-09-10T07:28:05Z",
+      "side": 0,
+      "message": "Other devices seem to have dropped it during a migration to AOSP WFD though...?",
+      "parentUuid": "9e94466b_8bc223d1",
+      "revId": "b6d852bc987a9b8cc2b2d6cc96526d1c049d3437",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
