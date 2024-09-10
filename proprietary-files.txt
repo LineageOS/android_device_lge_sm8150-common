@@ -392,7 +392,6 @@ vendor/lib/libcpion.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libhdcpsrm.so
-vendor/lib/libmmosal.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libops.so
 vendor/lib/libqisl.so
@@ -404,10 +403,6 @@ vendor/lib/libspl.so
 vendor/lib/libssd.so
 vendor/lib/libtrustedapploader.so
 vendor/lib/libtzdrmgenprov.so
-vendor/lib/libwfdcommonutils_proprietary.so
-vendor/lib/libwfddisplayconfig_proprietary.so
-vendor/lib/libwfdmmservice_proprietary.so
-vendor/lib/libwfdutils_proprietary.so
 vendor/lib/vendor.qti.hardware.qseecom@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
@@ -420,7 +415,6 @@ vendor/lib64/libcpion.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/libmmosal.so
 vendor/lib64/liboemcrypto.so
 vendor/lib64/libops.so
 vendor/lib64/libqisl.so
@@ -637,18 +631,13 @@ vendor/lib64/libnpu.so
 vendor/lib64/libopenvx.so
 
 # Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/system_properties.xml
-vendor/lib/libmmosal.so
 vendor/lib/libqcodec2.so
-vendor/lib64/libmmosal.so
 
 # MSM IRQ
 vendor/bin/msm_irqbalance
@@ -677,7 +666,6 @@ vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libadpcmdec.so
