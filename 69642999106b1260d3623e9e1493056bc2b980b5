@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "866245a9_0ebbeeb4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34288
+      },
+      "writtenOn": "2024-10-28T07:40:33Z",
+      "side": 1,
+      "message": "Insert repo description here\u003e",
+      "revId": "69642999106b1260d3623e9e1493056bc2b980b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
