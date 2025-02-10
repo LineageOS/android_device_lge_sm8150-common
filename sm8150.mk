@@ -216,7 +216,7 @@ PRODUCT_COPY_FILES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.lge
+    android.hardware.light-service.lineage
 
 # Livedisplay
 PRODUCT_PACKAGES += \
