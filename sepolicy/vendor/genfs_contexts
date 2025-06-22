@@ -24,9 +24,6 @@ genfscon sysfs /kernel/boot_cdsp/boot                                           
 # Sensors
 genfscon sysfs /devices/platform/soc/5c00000.qcom,ssc/subsys2                        u:object_r:vendor_sysfs_ssr:s0
 
-# Tap2wake
-genfscon sysfs /devices/virtual/input/lge_touch                                      u:object_r:sysfs_lge_touch:s0
-
 # Thermal
 genfscon sysfs /devices/platform/soc/soc:lge,monitor-thermal                         u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/platform/lge-unified-nodes/thermald_idc                      u:object_r:sysfs_thermal:s0
