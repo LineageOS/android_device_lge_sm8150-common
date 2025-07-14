@@ -1,3 +1,2 @@
 # HALs
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.lge_sm8150                          u:object_r:hal_lineage_touch_default_exec:s0
-/(vendor|system/vendor)/bin/cpfirmware                                                                  u:object_r:vendor_hal_drm_widevine_exec:s0
