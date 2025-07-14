@@ -90,10 +90,6 @@ on post-fs-data
     restorecon /sys/kernel/debug/tzdbg
     restorecon_recursive /sys/kernel/debug/tzdbg
 
-    # Widevine firmware copy
-    # reducing booting time. changing to background start
-    exec_background - system system -- /vendor/bin/cpfirmware widevine /mnt/vendor/persist-lg/firmware
-
     # Create callduration file
     mkdir /mnt/vendor/persist-lg/callduration 0770 system radio
     chown system /mnt/vendor/persist-lg/callduration
