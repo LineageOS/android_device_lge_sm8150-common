@@ -267,8 +267,7 @@ PRODUCT_COPY_FILES += \
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_dsp_mountpoint \
-    vendor_firmware_mnt_mountpoint \
-    vendor_OP_mountpoint
+    vendor_firmware_mnt_mountpoint
 
 # Permissions
 PRODUCT_COPY_FILES += \

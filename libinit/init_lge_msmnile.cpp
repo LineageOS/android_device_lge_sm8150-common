@@ -74,8 +74,6 @@ void init_target_properties()
     std::string model;
     std::string product_name;
     std::string cmdline;
-    std::string cust_prop_path;
-    std::string cust_prop_line;
     bool unknownModel = true;
     bool dualSim = false;
 
@@ -93,22 +91,6 @@ void init_target_properties()
                 dualSim = true;
             } else if(pieces[0].compare("androidboot.vendor.lge.hw.revision") == 0) {
                 property_override("ro.boot.hardware.revision", pieces[1]);
-            }
-        }
-    }
-
-    cust_prop_path = "/vendor/OP/cust.prop";
-    std::ifstream cust_prop_stream(cust_prop_path, std::ifstream::in);
-
-    while(std::getline(cust_prop_stream, cust_prop_line)) {
-        std::vector<std::string> pieces = android::base::Split(cust_prop_line, "=");
-        if (pieces.size() == 2) {
-            if(pieces[0].compare("ro.vendor.lge.build.target_region") == 0 ||
-               pieces[0].compare("ro.vendor.lge.build.target_operator") == 0 ||
-               pieces[0].compare("ro.vendor.lge.build.target_country") == 0 ||
-               pieces[0].compare("telephony.lteOnCdmaDevice") == 0)
-            {
-                property_override(pieces[0], pieces[1]);
             }
         }
     }
