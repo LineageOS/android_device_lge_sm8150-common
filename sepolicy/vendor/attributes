@@ -1,3 +1,0 @@
-attribute hal_lgdata;
-attribute hal_lgdata_client;
-attribute hal_lgdata_server;
