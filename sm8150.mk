@@ -225,7 +225,7 @@ endif
 
 # Livedisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.lge
+    vendor.lineage.livedisplay-service.lge
 
 # Lineage Health
 PRODUCT_PACKAGES += \
